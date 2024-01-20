@@ -1,0 +1,70 @@
+#body{
+	margin:0px;
+}
+#content{
+	background-color:#872657;
+	height:100px;
+	width:100%;
+	background-image:url('NTlogo1.png');
+	background-size:200px;
+	background-repeat:no-repeat;
+	border-bottom:2px solid #872657;
+	
+}
+
+#home{
+	color:white;
+	padding:50px;
+	padding-top:35px;
+	margin-left:200px;
+	font-size:20px;
+	cursor:pointer;
+}
+
+table,tr,td{
+	
+	width:1050px;
+}
+#ls{
+	cursor:pointer;
+	border-radius:10px;
+}
+#lgn-btn{
+	background-color:#872657;
+	border:0px;
+	outline:1px solid white;
+	position:relative;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:20px 0px 0px 20px;
+	overflow:hidden;
+	margin-right:0px;
+	height:30px;
+	width:80px;
+}
+#sngup-btn{
+	background-color:#872657;
+	border:0px;
+	outline:1px solid white;
+	position:relative;
+	font-size:20px;
+	cursor:pointer;
+	border-radius:0px 20px 20px 0px;
+	margin-left:0px;
+	height:30px;
+	width:80px;
+}
+#bbox{
+	position:relative;
+	background-color:#872657;
+}
+#home a{
+	text-decoration:none;
+	color:White;
+	font-family:timesnewroman;
+}
+#home a:hover{
+	background-color:white;	
+	border-radius:10px;
+	color:#872657;
+}

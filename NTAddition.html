@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Project</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+
+<Link rel="stylesheet" href="Design-codes.css">
+</head>
+
+<body id="body1">
+
+<div id="design">
+
+<div style="padding:20px 1px;border-bottom:2px solid white;text-align:center;color:white">
+<span>Code-World</span>'s List of Programs
+</div>
+
+<div id="list">
+<a href="NTJava.html">Java programs</a>
+<hr id="a1">
+
+<a href="NTJavascript.html">Javascript programs</a>
+<hr id="a2">
+
+<a href="NTModelJsPrograms.html">Model JS programs</a>
+<hr id="a3">
+
+</div>	
+
+</div>
+<div id="jp">
+<h3>Addition of Two Numbers</h3>
+<pre>
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main{
+    
+    public static void main(String[]args)throws IOException{
+        BufferedReader reader=new BufferedReader(new InputStreamReader(System.in));
+        
+        System.out.print("Enter value for n1 ");
+        String name=reader.readLine();
+        System.out.print("Enter value for n2 ");
+        String name2=reader.readLine();
+        
+        int n1=Integer.valueOf(name);
+        System.out.println("n1 "+n1);
+        
+        int n2=Integer.valueOf(name2);
+        System.out.println("n2 "+n2);
+        
+        int answer=n1+n2;
+    
+        System.out.print(n1+"+"+n2+"="+answer);
+        
+    }
+}
+</pre>
+<hr>
+<pre>
+Input:
+
+Enter value for n1 2
+Enter value for n2 3
+
+Output:
+2+3=5
+</pre>
+</div>
+
+</body>
+</html>

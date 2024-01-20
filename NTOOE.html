@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Odd or Even</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+<script src = "OOE.js"></script>
+<style>
+#body1{
+	font-family:Arial;
+	color:white;
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}
+
+#table{
+	background-color:#872657;
+	color:white;
+	margin-top:100px;
+	margin-left:450px;
+	height:auto;
+	width:350px;
+	padding:20px;
+}
+#submit{
+	float:right;
+	margin-right:90px;
+}
+#n{
+	margin-left:50px;
+}
+</style>
+
+</head>
+
+<body id="body1">
+<div id="cw">
+<h1>Code-World</h1>
+<div>
+
+<div id="table">
+	To check whether the given number is odd or even
+	<br>
+	<br>
+	<form>
+	<div id="n">
+	<label>Number:</label>
+	<input id="num" type="number" required>
+	<br>
+	<br>
+	<div id="submit">
+	<input type="button" onclick="func()" value="submit">
+	</div>
+	</div>
+	</form>
+	<br>
+	<br>
+	<label id="ore"></label>
+	</div>
+</body>
+</html>

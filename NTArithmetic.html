@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Arithmetic operations</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+<script src = "Arithmetic.js"></script>
+<style>
+#body1{
+	font-family:Arial;
+	color:white;
+}
+
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}
+	
+#arithmetic{
+	color:white;
+	background-color:#872657;
+	height:180px;
+	width:250px;
+	padding:20px;
+	margin-left:450px;
+	margin-top:100px;
+}
+#submitbtn{
+	float:right;
+	margin-right:30px;
+}
+
+#btn{
+	background-color:white;	
+	border-radius:5px;
+	border:1px solid white;
+	
+}
+#Operation{
+	height:20px;
+	width:145px;
+	text-align:center;
+	color:#872657;
+}
+			
+</style>
+</head>
+<body id="body1">
+<div id="cw">
+<h1>Code-World</h1>
+<div>
+<form>
+
+<div id="arithmetic">
+
+<label>Num1:</label>
+<input id="num1" type="number" name="num1" required>
+<br>
+<br>
+
+<label>Num2:</label>
+<input id="num2" type="number" name="num2" required>
+<br>
+<br>
+
+<label>Operation:</label>
+<select id="Operation">
+<option id="Addition" value="addition">Addition</option>
+<option id="Subtraction" value="subtraction">Subtraction</option>
+<option id="Multiplication" value="multiplication">Multiplication</option>
+<option id="Division" value="Division" >Division</option>
+</select>
+<br>
+<br>
+
+<div id="submitbtn">
+<input type="button" onclick="Calculate()" value="submit" id="btn">
+</div>
+<br>
+
+<label id="Answer"></label>
+</div>
+</form>
+</body>
+</html>

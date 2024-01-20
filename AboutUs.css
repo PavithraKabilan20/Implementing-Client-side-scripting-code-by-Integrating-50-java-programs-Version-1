@@ -1,0 +1,24 @@
+#About{
+	margin-left:30px;
+	margin-right:30px;
+}
+h2,h4{
+	font-family:Arial;
+	color:#872657;
+}
+p{
+	color:black;
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+}
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}

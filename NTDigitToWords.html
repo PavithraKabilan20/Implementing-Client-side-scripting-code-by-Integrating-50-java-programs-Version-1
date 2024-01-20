@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Project</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+
+<Link rel="stylesheet" href="Design-codes.css"></head>
+
+<body id="body1">
+
+<div id="design">
+
+<div style="padding:20px 1px;border-bottom:2px solid white;text-align:center;color:white">
+<span>Code-World</span>'s List of Programs
+</div>
+
+<div id="list">
+<a href="NTJava.html">Java programs</a>
+<hr id="a1">
+
+<a href="NTJavascript.html">Javascript programs</a>
+<hr id="a2">
+
+<a href="NTModelJsPrograms.html">Model JS programs</a>
+<hr id="a3">
+
+</div>	
+
+</div>
+<div id="jp">
+<h3>Display the given digit in words</h3>
+<pre>
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[]args){
+        Scanner sc=new Scanner(System.in);
+	System.out.print("Enter the number: ");
+        int digit=sc.nextInt();
+        
+        if(digit==0){
+            System.out.println("ZERO");
+        }
+        else if(digit==1){
+            System.out.println("ONE");
+        }
+        else if(digit==2){
+            System.out.println("TWO");
+        }
+        else if(digit==3){
+            System.out.println("THREE");
+        }
+        else if(digit==4){
+            System.out.println("FOUR");
+        }
+        else if(digit==5){
+            System.out.println("FIVE");
+        }
+        else if(digit==6){
+            System.out.println("SIX");
+        }
+        else if(digit==7){
+            System.out.println("SEVEN");
+        }
+        else if(digit==8){
+            System.out.println("EIGHT");
+        }
+        else if(digit==9){
+            System.out.println("NINE");
+        }
+        else{
+            System.out.println("Invalid");
+        }
+    }
+}
+</pre>
+<hr>
+<pre>
+Input:
+Enter the number: 7
+
+Output:
+Seven
+</pre>
+</div>
+
+</body>
+</html>

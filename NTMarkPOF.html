@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Display all divisors for given number</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+<script src = "MarkPOF.js"></script>
+<style>
+#body1{
+	font-family:Arial;
+	color:white;
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}
+
+#table{
+	background-color:#872657;
+	color:white;
+	margin-top:100px;
+	margin-left:450px;
+	height:auto;
+	width:350px;
+	padding:20px;
+}
+#submit{
+	float:right;
+	margin-right:90px;
+}
+#n{
+	margin-left:50px;
+}
+</style>
+
+</head>
+
+<body id="body1">
+<div id="cw">
+<h1>Code-World</h1>
+<div>
+
+<div id="table">
+<form>
+To check whether the given mark is pass or fail.
+	<div id="n">
+	<br>
+	<label>Mark:</label>
+	<input id="num" type="number" min="0" required>
+	<br>
+	<br>
+	<div id="submit">
+	<input type="button" onclick="mark()" value="submit">
+	</div>
+	<br>
+	</div>
+	<label id="mark"></label>
+</form>
+</div>
+</body>
+</html>

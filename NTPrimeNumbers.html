@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Display all divisors for given number</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+<script src = "PrimeNumber.js"></script>
+
+<style>
+#body1{
+	font-family:Arial;
+	color:white;
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}
+
+
+#div1{
+	text-align:center;
+	background-color:#872657;
+	color:white;
+	height:auto;
+	width:400px;
+	padding-top:20px;
+	margin-top:100px;
+	margin-left:370px;
+}
+
+
+#sbmt{
+	float:right;
+	margin-right:80px;
+	border:none;
+	border-radius:5px;
+	background-color:white;
+	color:#872657;
+	cursor:pointer;
+	
+}
+
+</style>
+
+</head>
+
+<body id="body1">
+<div id="cw">
+<h1>Code-World</h1>
+<div>
+
+<div id="div1">
+<form>
+To display all the prime numbers from n1 to n2
+<br>
+<br>
+<label>Number1:</label>
+<input type="number" min="0" id="num1" required>
+
+<br>
+<br>
+
+<label>Number2:</label>
+<input type="number" min="0" id="num2" required>
+<br>
+<br>
+
+<div id="submit">
+<input type="button" onclick="prime()" value="submit" id="sbmt">
+</div>
+
+<br>
+<br>
+
+<label id="Answer"></label>
+</form>
+</div>
+</body>
+</html>

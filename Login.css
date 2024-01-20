@@ -1,0 +1,100 @@
+h1{
+	font-family:Gabriola;
+	padding-top:5px;
+	padding-left:70px;
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+
+#content{
+	background-color:#872657;
+	color:white;
+	height:310px;
+	width:370px;
+	border-radius:20px;
+	margin-top:50px;
+	margin-left:400px;
+	padding:20px;
+	box-shadow:1px 1px 3px 3px gray;
+	
+}
+#heading{
+	font-family:Arial;
+	color:white;
+	font-size:30px;
+	text-align:center;
+}
+#un{
+	margin-left:20px;
+	font-size:22px;
+}
+#username{
+	height:35px;
+	width:300px;
+	margin-left:9px;
+	margin-top:10px;
+	background-image:url('email.png');
+	background-size:40px;
+	background-repeat:no-repeat;
+	text-align:center;
+	border-radius:10px;
+	border:2px solid white;
+	
+}
+
+#Password{
+	height:35px;
+	width:300px;
+	margin-left:9px;
+	margin-top:20px;
+	background-image:url('lock.png');
+	background-size:35px;
+	background-repeat:no-repeat;
+	text-align:center;
+	border-radius:10px;
+	border:2px solid white;
+}
+
+#button{
+	height:35px;
+	width:150px;
+	text-align:center;
+	border-radius:10px;
+	border:2px solid white;
+	margin-left:85px;
+	margin-top:25px;
+	background-color:white;
+	font-family:arial;
+	font-size:15px;
+}
+#cbrm{
+	margin-left:10px;
+	margin-top:5px;
+}
+#cb{
+	width:15px;
+	display:inline-block;	
+}
+#rm{
+	font-family:arial;
+	font-size:13px;
+}
+#img{
+	margin-top:10px;
+	margin-left:160px;
+	border-radius:50%;
+}
+#cbrm a{
+	text-decoration:none;
+	color:white;
+	font-size:13px;
+	font-family:arial;
+	margin-left:75px;
+}

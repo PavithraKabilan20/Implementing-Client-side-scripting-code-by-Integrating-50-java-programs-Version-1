@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Display First N even numbers</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+<script src = "FirstNEvenNums.js"></script>
+<style>
+#body1{
+	font-family:Arial;
+	color:white;
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}
+
+#box{
+	background-color:#872657;
+	color:white;
+	margin-top:100px;
+	margin-left:450px;
+	height:auto;
+	width:350px;
+	padding:20px;
+}
+#sbmt{
+	float:right;
+	margin-right:-10px;
+	border:none;
+	border-radius:5px;
+	background-color:white;
+	color:#872657;
+	cursor:pointer;
+	
+}
+#submit{
+	float:right;
+	margin-right:90px;
+}
+#n{
+	margin-left:50px;
+}
+</style>
+
+</head>
+
+<body id="body1">
+<div id="cw">
+<h1>Code-World</h1>
+<div>
+<div id="box">
+	Display First N Even Numbers
+	<br>
+	<br>
+	<form>
+
+	<div id="n">
+	<label id="num">Num1:</label>
+	<input type="number" id="number" min="0" required>
+	<br>
+	<br>
+	<div id="submit">
+	<input type="button" onclick="firsteven()" value="submit" id="sbmt">
+	</div>
+
+	</div>
+	</form>
+	<br>
+	<p id="answer"></p>
+</div>
+</body>
+</html>

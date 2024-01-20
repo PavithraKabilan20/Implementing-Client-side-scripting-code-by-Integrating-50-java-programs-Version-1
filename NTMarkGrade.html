@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Project</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+
+<Link rel="stylesheet" href="Design-codes.css">
+</head>
+
+<body id="body1">
+
+<div id="design">
+
+<div style="padding:20px 1px;border-bottom:2px solid white;text-align:center;color:white">
+<span>Code-World</span>'s List of Programs
+</div>
+
+<div id="list">
+<a href="NTJava.html">Java programs</a>
+<hr id="a1">
+
+<a href="NTJavascript.html">Javascript programs</a>
+<hr id="a2">
+
+<a href="NTModelJsPrograms.html">Model JS programs</a>
+<hr id="a3">
+
+</div>	
+
+</div>
+<div id="jp">
+<h3>Display grade for the given mark</h3>
+<pre>
+public class Main{
+    public static void main(String[]args){
+
+       System.out.print("Enter the mark: ");
+        String m=System.console().readLine();
+        
+        int mark=Integer.valueOf(m);
+        
+        if (mark>100){
+            System.out.println(" Invalid");
+        }
+        
+        else if(mark>=90){
+            System.out.println("Grade O");
+        }
+        
+        else if(mark>=80){
+            System.out.println("Grade A");
+        }
+        else if(mark>=70){
+            System.out.println("Grade B");
+        }
+        else if (mark>=60){
+            System.out.println("Grade C");
+        }
+        else if(mark>=50){
+            System.out.println("Grade D");
+        }
+        else if(mark>0){
+            System.out.println("Fail");
+        }
+        else{
+            System.out.println("Invalid");
+        }
+        
+    }
+}
+</pre>
+<hr>
+<pre>
+Input:
+Enter the mark: 88
+
+Output:
+Grade A
+</pre>
+</div>
+
+</body>
+</html>

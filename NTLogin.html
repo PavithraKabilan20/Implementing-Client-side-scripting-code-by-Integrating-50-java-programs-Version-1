@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="icon" type="image/png" href="NTlogo.png"/>
+<Link rel="stylesheet" href="Login.css">
+</head>
+
+<body id="body">
+
+<div id="cw">
+<h1>Code-World</h1>
+<div>
+
+<div id="content">
+
+<div id="heading">
+<strong>Login</strong>
+</div>
+
+<div>
+<img src="account.png" alt="" height="40px width="40px" id="img">
+</div>
+
+<div id="un">
+<input type="text" id="username" placeholder="Username">
+
+<input type="text" id="Password" placeholder="Password">
+<br>
+
+<div id="cbrm">
+<input type="checkbox" id="cb">
+<label id="rm">Remember Me</label>
+<a href="ForgotPassword.html" target="_blank">Forgot Password?</a>
+</div>
+
+<input type="button" onclick="login()" id="button" value="Login">
+
+</div>
+</div>
+
+<script>
+	function login(){
+		let user=document.getElementById("username").value;
+		let pass=document.getElementById("Password").value;
+
+		if(user=="username"&&pass=="Password"){
+			window.location.href="NTFrame.html";
+			window.alert("You are successfully Logged In");
+		}
+		else{
+			window.alert("Please enter the valid username and password");
+		}
+	}
+</script>
+</body>
+</html>

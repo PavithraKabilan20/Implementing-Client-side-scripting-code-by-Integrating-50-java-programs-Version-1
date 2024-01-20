@@ -1,0 +1,104 @@
+body{
+	font-family:Arial;
+	color:white;
+	
+	
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+	
+}
+#Contact{
+	border:2px solid white;
+	margin-left:400px;
+	padding:22px;
+	height:100%;
+	width:410px;
+	border-radius:30px;
+	background-color:#872657;
+	box-shadow:1px 2px 2px 1px #45132C;
+	font-family:Arial;
+	color:white;
+}
+
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}
+h2{
+	text-align:center;
+}
+#issue{
+	margin-top:15px;
+	height:40px;
+	width:400px;
+	border-radius:30px;
+	border:2px solid white;
+	font-family:Arial;
+	color:white;
+	cursor:pointer;
+}
+
+option{
+	font-size:15px;
+	font-family:Arial;
+	color:#872657;
+	font-family:Arial;
+}
+span{
+	color:red;
+}
+#email{
+	margin-top:15px;
+	height:40px;
+	width:400px;
+	text-align:center;
+	border-radius:30px;
+	border:2px solid white;
+	font-family:Arial;
+	color:white;
+}
+#cnum{
+	margin-top:15px;
+	height:40px;
+	width:400px;
+	text-align:center;
+	border-radius:30px;
+	border:2px solid white;
+	font-family:Arial;
+	color:white;
+}
+
+#drop{
+	margin-top:15px;
+	height:100px;
+	width:400px;
+	text-align:center;
+	border-radius:30px;
+	border:2px solid white;
+	font-family:Arial;
+	color:white;
+	
+}
+
+#submit{
+	margin-left:280px;
+	height:40px;
+	width:100px;
+	text-align:center;
+	border-radius:30px;
+	border:2px solid white;
+	background-color:white;
+	font-family:Arial;
+	color:#872657;
+	font-size:15px;
+}
+::placeholder{
+	color:#872657;
+}

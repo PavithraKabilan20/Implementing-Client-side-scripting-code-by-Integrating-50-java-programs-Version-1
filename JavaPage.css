@@ -1,0 +1,113 @@
+#body1{
+	margin:-5px;
+	background-color:white;
+}
+span{
+	font-family:Gabriola;
+	font-size:20px;
+}
+#design{
+	margin:0px;
+	background-color:#872657;
+	height:100vh;
+	width:230px;		
+	outline:2px solid white;
+	outline-top:5px solid white;
+	text-align:center;
+	font-family:arial;
+	float:left;
+}
+#design a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	transition: .4s, background-position 0s;	
+}
+#design a:hover{
+	background-color:white;
+	border-radius:10px;
+	color:#872657;
+	transform:scale(1.2);	
+
+}
+#list{
+	padding-top:10px;
+}
+hr#a1{
+	border-bottom:thin solid white;
+}
+hr#a2{
+	border-bottom:thin solid white;
+}
+hr#a3{
+	border-bottom:thin solid white;
+}
+hr#a4{
+	border-bottom:thin solid white;
+}
+h2{
+	color:#872657;
+	font-family:Arial;
+}
+#jp{
+	margin:10px;
+	float:left;
+}
+jp,a{
+	text-decoration:none;
+	color:black;
+	font-family:arial;
+	transition: .4s, background-position 0s;
+	
+}
+jp,a:hover{
+	background-color:#872657;
+	color:white;
+	transform:scale(1.2);	
+}
+ol{
+	font-size:17px;
+}
+#design,#jp{
+	display:inline-block;
+}
+#footer{
+  	float:left;
+    	margin-top:1px;
+	background-color:#872657;
+	height:auto;
+	width:97.6%;
+	padding:15px;
+	
+}
+#footer a{
+  	color:white;
+ 	padding:15px;
+  	text-decoration:none;
+}
+footer a:hover{
+  	background-color:white;
+	color:#872657;
+}
+p{
+	color:white;
+	margin-left:15px;
+}
+
+#fb{
+	background-image:url('email.png');
+	background-size:20px;
+	background-repeat:no-repeat;
+	padding-left:28px;
+}
+
+#flogo{
+	background-image:url('NTlogo.png');
+	background-size:50px;
+	background-repeat:no-repeat;
+	padding-left:60px;
+}
+#span1{
+	font-family:Gabriola;
+	font-size:35px;
+}

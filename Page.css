@@ -1,0 +1,101 @@
+body{
+	background-color:white;
+	color:#872657;
+	font-family:arial;
+	margin-left:0px;
+	margin-right:0px;
+}
+h1{
+	text-align:center;
+	font-family:Arial;
+	margin-top:100px;
+}
+span{
+	font-family:Gabriola;
+	font-size:35px;
+}
+h4{
+	text-align:center;
+}
+h4 a{
+	color:#872657;
+}
+#welcome{
+	color:#872657;
+	height:40px;
+	width:300px;
+	margin-left:500px;	
+}
+#welcome a{
+	text-decoration:none;
+	color:#872657;
+}
+#box{	
+	height:50px;
+	width:300px;
+	border-radius:30px;
+	margin-left:450px;
+	border:0px;
+	background-color:#872657;
+	text-align:center;
+	border-radius:20px 0px 0px 20px;
+	margin-right:0px;
+	color:white;
+}
+
+#btn{
+	background-image:url('NTSearch.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	height:50px;
+	width:60px;
+	margin-left:0px;
+	border-radius:0px 20px 20px 0px;
+	border:0px;
+	padding-top:10px;
+	padding-left:0px;
+	
+}
+#srchbtn{
+	position:relative;
+}
+#footer{
+  	float:left;
+    	margin-top:10px;
+	background-color:#872657;
+	height:auto;
+	width:97.6%;
+	margin-top:500px;
+	padding:15px;
+	
+}
+#footer a{
+  	color:white;
+ 	padding:15px;
+  	text-decoration:none;
+}
+footer a:hover{
+  	background-color:white;
+	color:#872657;
+}
+p{
+	color:white;
+	margin-left:15px;
+}
+
+::placeholder{
+	color:white;
+}
+#fb{
+	background-image:url('email.png');
+	background-size:20px;
+	background-repeat:no-repeat;
+	padding-left:28px;
+}
+
+#flogo{
+	background-image:url('NTlogo.png');
+	background-size:50px;
+	background-repeat:no-repeat;
+	padding-left:60px;
+}

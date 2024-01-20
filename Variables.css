@@ -1,0 +1,31 @@
+#body1{
+	background-color:white;
+}
+
+#design{
+	height:430px;
+	width:100%;
+}
+#heading{
+	color:#872657;
+	font-family:arial;
+}
+#design a{
+	color:#872657;
+	text-decoration:none;
+	font-family:arial;
+	
+}
+#cw{
+	font-family:Arial;
+	color:#872657;
+	background-image:url('NTlogo.png');
+	background-repeat:no-repeat;
+	background-size:60px;
+	margin-left:0px;
+}
+h1{
+	font-family:Gabriola;
+	padding-top:10px;
+	padding-left:70px;
+}

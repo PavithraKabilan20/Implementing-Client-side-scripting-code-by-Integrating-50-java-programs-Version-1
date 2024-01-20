@@ -1,0 +1,40 @@
+#body1{
+	margin:-5px;
+	background-color:white;
+}
+#design{
+	margin:0px;
+	background-color:#872657;
+	height:490px;
+	width:230px;		
+	outline:2px solid white;
+	outline-top:50px solid white;
+	text-align:center;
+}
+#design a{
+	display:block;
+	border-radius:30px;
+	color:white;
+	text-decoration:none;	
+}
+#design a:hover{
+	background-color:white;
+	border-radius:10px;
+	color:#872657;
+
+}
+#list{
+	padding-top:10px;
+}
+hr#a1{
+	border-bottom:thin solid white;
+}
+hr#a2{
+	border-bottom:thin solid white;
+}
+hr#a3{
+	border-bottom:thin solid white;
+}
+hr#a4{
+	border-bottom:thin solid white;
+}
